@@ -7,6 +7,10 @@ function MyForm() {
     setName(e.target.value);
   }
 
+  // NTS - e is the event object from DOM -> React
+  // e.target is the element it came from
+  // target.value is target's text
+
   return (
     <form>
       <label>
