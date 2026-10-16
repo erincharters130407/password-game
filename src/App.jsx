@@ -1,10 +1,20 @@
 import { useState } from 'react';
 
+
+
 function MyForm() {
-  const [name, setName] = useState('');
+
+  // NTS - TEMPORARY HERE!!!!!!!!!!!!!!!!!!!!!
+  const password = "password"
+
+  const [name, setName] = useState("");
+  const [correct, setCorrect] = useState("incorrect")
 
   function handleChange(e) {
     setName(e.target.value);
+    (e.target.value == password) 
+    ? setCorrect("correct") 
+    : setCorrect("incorrect");
   }
 
   // NTS - e is the event object from DOM -> React
@@ -14,14 +24,14 @@ function MyForm() {
   return (
     <form>
       <label>
-        Enter your name:
+        Enter the password:
         <input
           type="text"
           value={name}
           onChange={handleChange}
         />
       </label>
-      <p>Current value: {name}</p>
+      <p>{correct}</p>
     </form>
   );
 }
