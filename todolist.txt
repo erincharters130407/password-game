@@ -5,11 +5,18 @@ basic game:
 - make visual bar to show closeness to password
     - do letters in correct position move bar more than correct in bad position?
     - do we reward general guesses like adding special chars? 
+    - game must allow brute forcing.
+        - time based scoring = rewards trying to solve puzzle
 
 password generation:
 - add password hints section
 - find a way to standardise entering password and clues
     - basic db for password + clues in order that can be r/w
+
+PRELIM PASSWORD STANDARDS:
+- password is max 10 characters, and is one word
+- hints are kind of like connections clues. Like for the password CANNON, the words could be ball, then nick, then loose. 
+- take examples from connections?
 
 web:
 - 
