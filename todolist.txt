@@ -8,6 +8,12 @@ basic game:
     - game must allow brute forcing.
         - time based scoring = rewards trying to solve puzzle
 
+special hints:
+- e.g. "must contain a number". the password is always one real english word
+- so this tells you that you need to use E(3), I/L(1), S(5), Z(2)
+- special symbols e.g. S($), 
+- define password length to help
+
 password generation:
 - add password hints section
 - find a way to standardise entering password and clues
@@ -18,5 +24,3 @@ PRELIM PASSWORD STANDARDS:
 - hints are kind of like connections clues. Like for the password CANNON, the words could be ball, then nick, then loose. 
 - take examples from connections?
 
-web:
-- 
