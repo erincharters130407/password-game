@@ -1,12 +1,14 @@
 TO DO:
 
 basic game:
-- make game able to recognise when user gets the password
 - make visual bar to show closeness to password
     - do letters in correct position move bar more than correct in bad position?
     - do we reward general guesses like adding special chars? 
-    - game must allow brute forcing.
-        - time based scoring = rewards trying to solve puzzle
+    - time based = rewards trying to solve puzzle
+
+scoring:
+    - heavier reward for correct letters e.g. anteater should be "close" to elephant despite lexicographical difference
+    - improve relative position scoring. 
 
 special hints:
 - e.g. "must contain a number". the password is always one real english word
